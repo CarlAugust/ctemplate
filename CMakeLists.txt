@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.28.3)
+
+PROJECT(ctemplate C)
+
+SET(CMAKE_C_STANDARD 11)
+SET(CMAKE_C_COMPILER clang)
+SET(CMAKE_BUILD_TYPE Debug)
+
+ENABLE_TESTING()
+
+add_subdirectory(src)
+add_subdirectory(tests)

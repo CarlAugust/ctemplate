@@ -1,0 +1,12 @@
+# Ignore build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Not ignoring .vscode settings file as it contains project-specific configurations
+# .vscode/
+
+# Ignore Unity test framework files
+/tests/Unity/
